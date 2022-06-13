@@ -1,6 +1,10 @@
 # lkx-movive
 
-
+# vue 项目   
+    1.正在热映
+    2.即将上映
+## 用户管理系统
+    
 ## Project setup
 ```
 npm install
