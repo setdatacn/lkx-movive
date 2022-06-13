@@ -1,7 +1,6 @@
 # lkx-movive
 
-##亚茹妹妹
-##刘娇
+
 ## Project setup
 ```
 npm install
