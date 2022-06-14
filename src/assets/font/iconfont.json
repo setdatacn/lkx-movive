@@ -1,0 +1,37 @@
+{
+  "id": "3464921",
+  "name": "卖座",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2136991",
+      "name": "电影之夜-电影榜",
+      "font_class": "dianyingzhiye-dianyingbang",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "2506223",
+      "name": "资讯",
+      "font_class": "zixun",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "11372734",
+      "name": "影院",
+      "font_class": "yingyuan",
+      "unicode": "e8c0",
+      "unicode_decimal": 59584
+    },
+    {
+      "icon_id": "18405471",
+      "name": "我的，我",
+      "font_class": "wodewo",
+      "unicode": "e6e0",
+      "unicode_decimal": 59104
+    }
+  ]
+}

@@ -1,15 +1,17 @@
 <template>
   <div>
-    跟组件
+   <router-view></router-view>
+   <Footer/>
   </div>
 </template>
 
 <script>
-  export default {
-    
-  }
+import Footer from './components/navigator/Footer.vue';
+
+export default {
+  components: { Footer },
+  };
 </script>
 
 <style lang="scss" scoped>
-
 </style>
