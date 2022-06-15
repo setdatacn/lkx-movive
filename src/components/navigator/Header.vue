@@ -1,18 +1,18 @@
 <template>
-  <div style="backgroundColor:white">
+  <div style="backgroundColor:white;">
     <van-nav-bar
       title="电影"
       :border="false"
       v-show="topStatus"
     >
     <template #left>
-      <span>太原</span>
+      <span style="font-size: 13px;">太原</span>
       <van-icon name="arrow-down" color="black" :size="5" style="margin-left:5px" />
     </template>
     </van-nav-bar>
     <van-tabs
       title-active-color="#ff5f16"
-      line-width="80"
+      line-width="60"
       line-height="2"
     >
       <van-tab
@@ -44,15 +44,19 @@ export default {
   },
   data() {
     return {
-      
+      ative: 0
     }
   },
+  mounted(){
+    let path = window.location.pathname
+    if (path === '/film/comingSoon') this.active = 1
+  }
 }
 </script>
 
 <style lang="scss" scoped>
 ::v-deep .van-tab__text--ellipsis {
-  font-size: 16px;
+  font-size: 14px;
 }
 ::v-deep .van-tabs__line {
   background-color: #ff5f16;
